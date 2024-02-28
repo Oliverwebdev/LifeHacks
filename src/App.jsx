@@ -36,16 +36,16 @@ function App() {
               <NavLink to="/">Welcome</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink to="/artikelbeschreibung">Artikelbeschreibung</NavLink>
+              <NavLink to="/AdvertisementGenerator">Verkaufs helfer</NavLink>
             </NavItem>
             {/* Hier könnten weitere Links hinzugefügt werden */}
           </NavList>
         </Navbar>
 
         <Routes>
-          <Route index path="/" exact element={<Welcome />} />
+          <Route  path="/" index element={<Welcome />} />
           <Route
-            path="/artikelbeschreibung"
+            path="/AdvertisementGenerator"
             element={<AdvertisementGenerator />}
           />
           {/* Hier weitere Routen hinzufügen, falls benötigt */}
